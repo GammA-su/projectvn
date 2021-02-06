@@ -150,49 +150,9 @@ function draw(){
 
     function gen(num,cha){
             if (active == "intro" || active == "waiting+anim"){
-                var intro = 
-                ["Il existe en ce monde...", "...une chose que personne n'a jamais vue.", "FRANGE DE CÔTÉ ELLE AIMERA", "C'est un mensonge.",
-                "Ça ne sert à rien... Bon sang...", "Du moisi ? C'est une blague ou quoi ","J'ai enlevé tout le moisi récemment...",
-                "Cette chose est très bonne, très douce, Si on la voit une fois...","...On voudra probablement la revoir.",
-                "C'est pourquoi le monde veut la cacher, la rendre très difficile à obtenir.","Merde. Je ne peux pas l'enlever.", 
-                "Mais un jour, quelqu'un la trouvera.","Et ce quelqu'un sera celui qui était censé la trouver", 'Car cela a été créé ainsi.',"","HAHHHHHH"
-            
-            
-            // Text edition 
-            
-            
-            
-            
-            
-            
-            ]
-                var character = 
-                ['Ryuuji', 'Ryuuji', '---','Ryuuji','Ryuuji','Ryuuji',"Ryuuji","---","---",'---',"Ryuuji","---","---","---","","Hihi"
-            
-            
-            
-            
-            // Character Title
-            
-            
-            
-            
-            
-            
-            
-            ]
-                var background = 
-                [background_1,background_1,background_2,background_2,background_2,background_3,background_3,background_3,background_3,background_3,background_3
-                 ,background_3,background_3,background_3,background_4,background_4,background_4,background_4,background_4
-                
-                
-                
-                
-                // Background 
-                
-                
-                
-                ] 
+                var intro = ["Il existe en ce monde...", "...une chose que personne n'a jamais vue.", "FRANGE DE CÔTÉ ELLE AIMERA", "C'est un mensonge.","Ça ne sert à rien... Bon sang...", "Du moisi ? C'est une blague ou quoi ","J'ai enlevé tout le moisi récemment...","Cette chose est très bonne, très douce, Si on la voit une fois...","...On voudra probablement la revoir.","C'est pourquoi le monde veut la cacher, la rendre très difficile à obtenir.","Merde. Je ne peux pas l'enlever.", "Mais un jour, quelqu'un la trouvera.","Et ce quelqu'un sera celui qui était censé la trouver", 'Car cela a été créé ainsi.',"","HAHHHHHH"]
+                var character = ['Ryuuji', 'Ryuuji', '---','Ryuuji','Ryuuji','Ryuuji',"Ryuuji","---","---",'---',"Ryuuji","---","---","---","","Hihi"]
+                var background = [background_1,background_1,background_2,background_2,background_2,background_3,background_3,background_3,background_3,background_3,background_3,background_3,background_3,background_3,background_4,background_4,background_4,background_4,background_4] 
                 //var background = [background_1,background_2,background_3,background_4,background_5,background_6,background_7,background_8,background_9,background10,background11,background12,background13,background14,background15,background16,background17,background17,background18]
                 console.log(intro[num])
                 current_character = character[cha]
