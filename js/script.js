@@ -150,7 +150,19 @@ function draw(){
 
     function gen(num,cha){
             if (active == "intro" || active == "waiting+anim"){
-                var intro = ["Il existe en ce monde...", "...une chose que personne n'a jamais vue.", "FRANGE DE CÔTÉ ELLE AIMERA", "C'est un mensonge.","Ça ne sert à rien... Bon sang...", "Du moisi ? C'est une blague ou quoi ","J'ai enlevé tout le moisi récemment...","Cette chose est très bonne, très douce, Si on la voit une fois...","...On voudra probablement la revoir.","C'est pourquoi le monde veut la cacher, la rendre très difficile à obtenir.","Merde. Je ne peux pas l'enlever.", "Mais un jour, quelqu'un la trouvera.","Et ce quelqu'un sera celui qui était censé la trouver", 'Car cela a été créé ainsi.',"","HAHHHHHH"]
+                var intro = ["Il existe en ce monde...", "...une chose que personne n'a jamais vue.",
+                 "FRANGE DE CÔTÉ ELLE AIMERA", "C'est un mensonge.","Ça ne sert à rien... Bon sang...",
+                  "Du moisi ? C'est une blague ou quoi ","J'ai enlevé tout le moisi récemment...",
+                  "Cette chose est très bonne, très douce, Si on la voit une fois...","...On voudra probablement la revoir.",
+                  "C'est pourquoi le monde veut la cacher, la rendre très difficile à obtenir.","Merde. Je ne peux pas l'enlever.",
+                   "Mais un jour, quelqu'un la trouvera.","Et ce quelqu'un sera celui qui était censé la trouver",
+                    'Car cela a été créé ainsi.',"","Éco, éco, éco, écologie...",""
+                
+                
+                
+                
+                
+                ]
                 var character = ['Ryuuji', 'Ryuuji', '---','Ryuuji','Ryuuji','Ryuuji',"Ryuuji","---","---",'---',"Ryuuji","---","---","---","","Hihi"]
                 var background = [background_1,background_1,background_2,background_2,background_2,background_3,background_3,background_3,background_3,background_3,background_3,background_3,background_3,background_3,background_4,background_4,background_4,background_4,background_4] 
                 //var background = [background_1,background_2,background_3,background_4,background_5,background_6,background_7,background_8,background_9,background10,background11,background12,background13,background14,background15,background16,background17,background17,background18]
@@ -511,10 +523,18 @@ function keyTyped(){
             active = "startw8";
             }
         if (active == "waiting+anim"){
-            active = "endforceanim"
+            active = "endforceanim";
          }
          if (active == "animtext" && active != "waiting+anim"){
             active = "endforcetxtanim";
+        }
+        if (active =="playing"){
+            clear();
+            current_num = current_num + 1;
+            op.stop();
+            op.hide();
+            animtext = false;
+            active ="startw8";
         }
             
     }
@@ -538,6 +558,14 @@ function keyTyped(){
         }
         if (active == "waiting+anim"){
             active = "endforceanim"
+        }
+        if (active =="playing"){
+            clear();
+            current_num = current_num - 1;
+            op.stop();
+            op.hide();
+            animtext = false;
+            active ="startw8";
         }
     }
     if (key == "f"){
