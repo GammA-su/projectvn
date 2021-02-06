@@ -1,0 +1,1298 @@
+BaselineInfo:
+  IsLicensed: false
+  WebDBID: -1
+  IsLaptop: false
+  TimeStamp: 20191215144232
+  Description: ""
+  Notes: ""
+  DX9DevName: NVIDIA GeForce GTX 1060 3GB
+  DX10DevName: NVIDIA GeForce GTX 1060 3GB
+  DX11DevName: NVIDIA GeForce GTX 1060 3GB
+  DX12DevName: NVIDIA GeForce GTX 1060 3GB
+  AllVideocardsMatch: false
+  gSyncEnabled: false
+  g_DX12RAWFPS: 74.6934204101563
+  g_DX12Width: 1920
+  g_DX12Height: 1080
+Version:
+  Major: 9
+  Minor: 0
+  Build: 1035
+  SpecialBuildName: ""
+  ptArchitecture: 64
+Results:
+  Results Complete: false
+  DriveTestedIndex: 1
+  GPUTestedIndex: 0
+  NumTestProcesses: 4
+  WorstTimingMismatch: 0.999698758125305
+  GPUCMandel: 1372.58129882813
+  GPUCJulia: 895.8466796875
+  GPUCBittonic: 164193808
+  GPUCOpenCL: 733.495483398438
+  CPU_INTEGER_MATH: 0
+  CPU_FLOATINGPOINT_MATH: 0
+  CPU_PRIME: 0
+  CPU_MATRIX_MULT_SSE: 0
+  CPU_COMPRESSION: 0
+  CPU_ENCRYPTION: 0
+  CPU_PHYSICS: 0
+  CPU_SORTING: 0
+  CPU_SINGLETHREAD: 0
+  G2D_SIMPLE: 0
+  G2D_COMPLEX: 0
+  G2D_FONT: 0
+  G2D_GUI: 0
+  G2D_ROTATION: 0
+  G2D_REPLICATION: 0
+  G2D_DIRECT2D: 0
+  G3D_COMPLEX: 160.794799804688
+  G3D_D3D10: 180.424652099609
+  G3D_D3D11: 186.363006591797
+  G3D_D3D12: 29.8773670196533
+  G3D_DIRECTCOMPUTE: 5137.3828125
+  ME_ALLOC_S: 0
+  ME_READ_S: 0
+  ME_READ_L: 0
+  ME_WRITE: 0
+  ME_LARGE: 0
+  ME_LATENCY: 0
+  ME_THREADED: 0
+  DI_READ: 0
+  DI_WRITE: 0
+  DI_RANDOM: 0
+  CD_READ: 0
+  SUMM_CPU: 0
+  SUMM_G2D: 0
+  SUMM_ME: 0
+  SUMM_DI: 0
+  SUMM_G3D: 8570.548828125
+  PASSMARK_RATING: 16231.7373046875
+SystemInformation:
+  ComputerName: DESKTOP-0E3QTVQ
+  OSName: Windows 10 Professional Edition build 19041 (64-bit)
+  CPUInfo:
+    number: 1
+    speed1: 3192.10131835938
+    speed2: 0
+    Family: 6
+    Model: 94
+    MMX: 8388608
+    SIMD: 1
+    features: 3219913727
+    CPUIDSupport: 1
+    manufacture: GenuineIntel
+    typestring: Intel(R) Core(TM) i5-6500 CPU @ 3.20GHz
+    speedstring1: 3192.1 MHz
+    speedstring2: ""
+    cacheinfo_num: 7
+    L2_cache_size: 256
+    Brand: 0
+    SerialAvail: 0
+    SerialNum1: 0
+    SerialNum2: 0
+    SerialNum3: 0
+    SMID_SSE2: 1
+    iLogicalsPerCore: 1
+    iHyperThreadStatus: 2
+    L3_cache_size: 6144
+    SMID_SSE3: 1
+    iCoresPerPackage: 4
+    MaxBasicInputValue: 22
+    PAE: 64
+    DEP: 1
+    SMID_SSE4_1: 1
+    SMID_SSE4_2: 1
+    EMT64: 1
+    L1_instruction_cache_size: 32
+    Trace_cache_size: -1
+    L1_data_cache_size: 32
+    Prefetching: 64
+    L1_data_caches_per_package: 4
+    L1_instruction_caches_per_package: 4
+    L2_caches_per_package: 4
+    L3_caches_per_package: 0
+    MSRInfo:
+      - ullMSR0x17: 0
+        ullMSR0x1B: 0
+        ullMSR0xE7: 0
+        ullMSR0xE8: 0
+        ullMSR0x19C: 0
+        ullMSR0x1A0: 0
+        ullMSR0x2A: 0
+        ullMSR0x2C: 0
+        ullMSR0xCD: 0
+        ullMSR0xCE: 0
+        ullMSR0x1AD: 0
+        ullMSR0x1A2: 0
+        ullMSR0x1AC: 0
+        iNonIntegerBusRatio: 0
+        flBusFrequencyRatio: 32
+        raw_freq_cpu: 3192.10131835938
+        flScalableBusSpeed: 0
+        flFSB: 0
+        flExternalClock: 99.7531661987305
+        flHTFreq: 0
+        iMinimumRatio: 8
+        iMaximumRatio: 32
+        iMaxTurbo1Core: 36
+        iMaxTurbo2Core: 35
+        iMaxTurbo3Core: 34
+        iMaxTurbo4Core: 33
+        iTDPLimit: 0
+        iTDCLimit: 0
+        iTemperatureTarget: 100
+        flCPUSpeedTurbo: 3591.11401367188
+        flCPUMultTurbo: 36
+        flCPUExternalClockTurbo: 99.7531661987305
+        flCPUSpeedStock: 0
+        flCPUMultStock: 0
+        flCPUExternalClockStock: 100
+        flCPUTSC: 3192.10131835938
+        flScalableBusSpeedStock: 0
+        flFSBStock: 0
+        OCLKBaseClock: 2
+        OCLKMultiplier: 3
+        OCLKFreq: 0
+        flCPUExternalClockBoosted: 0
+        flMinMult: 0
+        flMaxMult: 0
+        flBoostedMult: 0
+        iMaxTurbo5Core: 0
+        iMaxTurbo6Core: 0
+        iMaxTurbo7Core: 0
+        iMaxTurbo8Core: 0
+    SMID_SSSE3: 1
+    SMID_SSE4a: 0
+    VMX: 1
+    SMX: 1
+    ACPI: 1
+    szEMT: "Intel64 "
+    iManufacture: 1
+    HTT: 1
+    CPU_SPECIFICATION:
+      CPU: ""
+      iType: 0
+      iFamily: 0
+      iModel: 0
+      iStepping: 0
+      wCPUCodeName: 130
+      wStepping: 0
+      bySocket: 86
+      byFabrication: 9
+      iTJunction: -1
+      CPUCodeName: Skylake
+      Stepping: ""
+      Socket: LGA 1151
+      Fabrication: 14nm
+    CPU_SPECIFICATION_STEPPING:
+      - iStepping: 3
+        Stepping: ""
+        CPUID: Family 6, Model 5E, Stepping 3
+    bDTS: true
+    bIntelTurboBoost: true
+    iMaxTurbo1Core: 0
+    iMaxTurbo2Core: 0
+    iMaxTurbo3Core: 0
+    iMaxTurbo4Core: 0
+    flCPUSpeedTurbo: 3591.11401367188
+    AES: 1
+    OCLKBaseClock: 0
+    OCLKMultiplier: 0
+    OCLKFreq: 0
+    bAMDTurboCore: false
+    HyperThreadStatus: Disabled
+    CPUSummary: 1 x Intel(R) Core(TM) i5-6500 CPU @ 3.20GHz,
+    CPUGroupsInfo:
+      MaximumProcessorGroupCount: 1
+      ActiveProcessorGroupCount: 1
+      CPUGroupInfo:
+        - MaximumProcessorCount: 4
+          ActiveProcessorCount: 4
+          ActiveProcessorMask: 15
+    AVX: 1
+  MemInfoEx:
+    dwLength: 0
+    dwMemoryLoad: 63
+    ullTotalPhys: 8548614144
+    ullAvailPhys: 3151147008
+    ullTotalPageFile: 17097228288
+    ullAvailPageFile: 9033863168
+    ullTotalVirtual: 140737488224256
+    ullAvailVirtual: 140732342018048
+    ullAvailExtendedVirtual: 0
+  MemModuleInfo:
+    iNumMemSticks: 2
+    memSPDInfo:
+      - szHeading: "DIMM 1:"
+        szLine1: 4GB DDR4 SDRAM PC4-17000
+        szLine2: "Crucial Technology CT4G4DFS8213.C8FDD2, serial#: 0x1949F6F0, wk/yr: 42/2017"
+        szLine3: "1.2V, Clk: 1067.2MHz, Timings 15-15-15-36 (@ Max. freq.)"
+        type: 12
+        spdRev: 17
+        registered: false
+        ecc: false
+        year: 2017
+        week: 42
+        dimmNum: 0
+        jedecID: 155
+        jedecManuf: Crucial Technology
+        modulePartNo: "CT4G4DFS8213.C8FDD2 "
+        moduleRev: 0
+        moduleSerialNo: 424277744
+        moduleManufLoc: 15
+        rowAddrBits: 15
+        colAddrBits: 10
+        numBanks: 16
+        numRanks: 1
+        deviceWidth: 8
+        busWidth: 64
+        moduleVoltage: 1.2V
+        clkspeed: 1067.23583984375
+        szModulespeed: PC4-17000
+        size: 4096
+        CASSupported: "9 10 11 12 13 14 15 16 17 18 19 "
+        tCK: 0.936999976634979
+        tAA: 13.5
+        tRCD: 13.5
+        tRP: 13.5
+        tRAS: 33
+        tRRD: 3.70099997520447
+        tRC: 46.5
+        tRFC: 260
+      - szHeading: "DIMM 2:"
+        szLine1: 4GB DDR4 SDRAM PC4-17000
+        szLine2: G Skill Intl F4-2133C15-4GVR
+        szLine3: "1.2V, Clk: 1066.7MHz, Timings 15-15-15-35 (@ Max. freq.)"
+        type: 12
+        spdRev: 16
+        registered: false
+        ecc: false
+        year: 0
+        week: 0
+        dimmNum: 1
+        jedecID: 205
+        jedecManuf: G Skill Intl
+        modulePartNo: F4-2133C15-4GVR
+        moduleRev: 1
+        moduleSerialNo: 0
+        moduleManufLoc: 0
+        rowAddrBits: 15
+        colAddrBits: 10
+        numBanks: 16
+        numRanks: 1
+        deviceWidth: 8
+        busWidth: 64
+        moduleVoltage: 1.2V
+        clkspeed: 1066.66662597656
+        szModulespeed: PC4-17000
+        size: 4096
+        CASSupported: "9 11 12 13 14 15 16 18 19 "
+        tCK: 0.938000023365021
+        tAA: 13.5
+        tRCD: 13.5
+        tRP: 13.5
+        tRAS: 32
+        tRRD: 3.70000004768372
+        tRC: 46.5
+        tRFC: 260
+  GraphicsSummary: "NVIDIA GeForce GTX 1060 3GB, "
+  MM:
+    iNumberMonitorsInit: 1
+    iNumberMonitors: 1
+    szMonitorSequencing: 77E38E21D91C06
+    mi:
+      - rcMonitor:
+          left: 0
+          top: 0
+          right: 1920
+          bottom: 1080
+        rcWork:
+          left: 0
+          top: 0
+          right: 1920
+          bottom: 1040
+        dwFlags: 1
+        szDevice: \\.\DISPLAY1
+    ma:
+      - iBPP: 32
+        iX: 1920
+        iY: 1080
+        flRefreshRate: 60
+        iDPI: 96
+        szMonitorNumber: "Monitor 1:"
+        szDisplay: "1920x1080x32 60Hz 96 DPI (Primary monitor) "
+  DD:
+    - bDisplay: true
+      szDisplayDevice: ""
+      szDeviceDescription: NVIDIA GeForce GTX 1060 3GB
+      szDeviceID: PCI\VEN_10DE&DEV_1C02&SUBSYS_37241458&REV_A1
+      szDeviceKey: SYSTEM\CurrentControlSet\Control\Class\{4d36e968-e325-11ce-bfc1-08002be10318}\0000
+      bDriverInstalled: true
+      szDeviceDescription2: NVIDIA GeForce GTX 1060 3GB
+      szChipType: 0x1C02
+      szDACType: Integrated RAMDAC
+      szBIOSString: 86.06.11.00.6a
+      szInstalledDisplayDrivers: ""
+      dwMemorySize: 3221028864
+      szDriverProviderName: NVIDIA
+      szDriverVersion: 445.23
+      szDriverDate: 11-3-2019
+      szPNPID: PCI\VEN_10DE&DEV_1C02&SUBSYS_37241458&REV_A1\4&305862bd&0&0008
+      SLIEnabled: false
+      iComputeUnits: 0
+      iMonitorIndex: [0]
+  SysInfo_WMI:
+    BIOSInfo:
+      - szBIOS_Manufacturer: American Megatrends Inc.
+        szBIOS_ReleaseDate: 2017/05/03
+        szBIOS_BIOSVersion: 1.80
+    VirtualMemoryInfo:
+      - PageFileName: C:\pagefile.sys
+        dwPageFileAllocatedBaseSize: 8152
+    OpticalDriveInfo:
+      OpticalDriveSummary: ""
+      OpticalDriveModel:
+        []
+    PhyscialDriveInfo:
+      tszHDDSummary: "112GB SSD, 466GB SSD, 932GB HDD, "
+      PhysDisk:
+        - dwDisk_Index: 1
+          Size: 120031511040
+          bSSD: true
+          Name: KINGSTON SV300S37A120G
+          szDisk_Description: Lecteur de disque
+          szSummary: "Lecteur de disque: Model: KINGSTON SV300S37A120G Serial: 50026B766701D4A9 (Disk: 1, Size: 111.79GB, Interface: SATA, Volumes: C)"
+        - dwDisk_Index: 0
+          Size: 500105249280
+          bSSD: true
+          Name: Samsung SSD 860 EVO 500GB
+          szDisk_Description: Lecteur de disque
+          szSummary: "Lecteur de disque: Model: Samsung SSD 860 EVO 500GB Serial: S3Z2NB0KA88852L (Disk: 0, Size: 465.76GB, Interface: SATA, Volumes: E)"
+        - dwDisk_Index: 2
+          Size: 1000202273280
+          bSSD: false
+          Name: ST1000DM003-1SB102
+          szDisk_Description: Lecteur de disque
+          szSummary: "Lecteur de disque: Model: ST1000DM003-1SB102 Serial: Z9A776Z8 (Disk: 2, Size: 931.51GB, Interface: SATA, Volumes: D)"
+    DiskVolumeInfo:
+      - szLogicalDisk_VolumeName: ""
+        szLogicalDisk_Name: "C: "
+        szLogicalDisk_Description: Local Drive
+        szLogicalDisk_FileSystem: NTFS
+        szLogicalDisk_ProductName: ""
+        szLogicalDisk_VolumeSummary: "C:  Local Drive, \\\\?\\Volume{66a5a6dc-02d8-4d82-824b-56932324a9bc}\\, NTFS, (108.86GB total, 9.93GB free)"
+        iLogicalDisk_DriveType: 3
+        ullLogicalDisk_Totalbytes: 116891107328
+        ullLogicalDisk_Freebytes: 10666336256
+      - szLogicalDisk_VolumeName: Nouveau nom
+        szLogicalDisk_Name: "D: "
+        szLogicalDisk_Description: Local Drive
+        szLogicalDisk_FileSystem: NTFS
+        szLogicalDisk_ProductName: ""
+        szLogicalDisk_VolumeSummary: "D:  Local Drive, \\\\?\\Volume{afb03382-78ca-46eb-bd0a-ad773e099203}\\, Nouveau nom, NTFS, (827.95GB total, 12.16GB free)"
+        iLogicalDisk_DriveType: 3
+        ullLogicalDisk_Totalbytes: 889002651648
+        ullLogicalDisk_Freebytes: 13054455808
+      - szLogicalDisk_VolumeName: DeltA
+        szLogicalDisk_Name: "E: "
+        szLogicalDisk_Description: Local Drive
+        szLogicalDisk_FileSystem: NTFS
+        szLogicalDisk_ProductName: ""
+        szLogicalDisk_VolumeSummary: "E:  Local Drive, \\\\?\\Volume{21260c30-7f39-01d4-1802-93909c3fea00}\\, DeltA, NTFS, (292.97GB total, 7.91GB free)"
+        iLogicalDisk_DriveType: 3
+        ullLogicalDisk_Totalbytes: 314572795904
+        ullLogicalDisk_Freebytes: 8489021440
+    RAMInfo:
+      []
+    ComputerModelInfo:
+      - MS-7A12
+    BaseBoardInfo:
+      - szBaseBoard_Manufacturer: MSI
+        szBaseBoard_Product: Z170A GAMING PRO CARBON (MS-7A12)
+        szBaseBoard_SerialNumber: G816429041
+        szBaseBoard_Version: 1.0
+    SerialPortInfo:
+      []
+    ParallelPortInfo:
+      []
+    NetworkAdapterInfo:
+      - szNetworkAdapter_PNPDeviceID: PCI\VEN_8086&DEV_15B8&SUBSYS_7A121462&REV_31\3&11583659&0&FE
+        szNetworkAdapter_Description: Intel(R) Ethernet Connection (2) I219-V
+        szNetworkAdapter_Summary: "Intel(R) Ethernet Connection (2) I219-V (Speed: 100Mb/s) (MAC: 4C:CC:6A:67:EB:BA) (IPv4: 192.168.1.17) (IPv6: fe80::311e:788b:2600:71b9)"
+        ui64Speed: 100000000
+      - szNetworkAdapter_PNPDeviceID: SWD\MSRRAS\MS_NDISWANBH
+        szNetworkAdapter_Description: ""
+        szNetworkAdapter_Summary: ""
+        ui64Speed: 0
+    PortConnectorInfo:
+      Ports:
+        - dwPortConnector_PortType: 14
+          szPortConnector_PortType: Mouse Port
+          szPortConnector_ConnectorType: "PS/2 "
+        - dwPortConnector_PortType: 13
+          szPortConnector_PortType: Keyboard Port
+          szPortConnector_ConnectorType: "PS/2 "
+        - dwPortConnector_PortType: 9
+          szPortConnector_PortType: Serial Port 16550A Compatible
+          szPortConnector_ConnectorType: "DB-9 "
+        - dwPortConnector_PortType: 28
+          szPortConnector_PortType: Video Port
+          szPortConnector_ConnectorType: "DB-15 "
+        - dwPortConnector_PortType: 16
+          szPortConnector_PortType: USB
+          szPortConnector_ConnectorType: "Access.bus "
+      dwPortConnector_NumUSBPorts: 0
+      dwPortConnector_NumFirewirePorts: 0
+    DiskPartitionInfo: [4, 8, 6]
+  SysInfo_SMBIOS:
+    BIOSInfo:
+      - szBIOS_Manufacturer: American Megatrends Inc.
+        szBIOS_ReleaseDate: 05/03/2017
+        szBIOS_BIOSVersion: 1.80
+    RAMInfo:
+      - ullRAM_Capacity: 0
+        dwRAM_MemoryType: 2
+        dwRAM_PositionInRow: 0
+        szRAM_MemoryLocation: ChannelA-DIMM0
+        dwRAM_Speed: 0
+        szRAM_Manufacturer: ""
+        szRAM_szSerialNumber: ""
+        szRAM_RAMModuleHeading: "ChannelA-DIMM0: "
+        szRAM_RAMModuleLine1: "Not populated "
+        szRAM_RAMModuleLine2: ""
+      - ullRAM_Capacity: 4294967296
+        dwRAM_MemoryType: 26
+        dwRAM_PositionInRow: 0
+        szRAM_MemoryLocation: ChannelA-DIMM1
+        dwRAM_Speed: 2133
+        szRAM_Manufacturer: ""
+        szRAM_szSerialNumber: 1949F6F0
+        szRAM_RAMModuleHeading: "ChannelA-DIMM1: "
+        szRAM_RAMModuleLine1: "4096MB, 2133MHz, "
+        szRAM_RAMModuleLine2: ""
+      - ullRAM_Capacity: 0
+        dwRAM_MemoryType: 2
+        dwRAM_PositionInRow: 0
+        szRAM_MemoryLocation: ChannelB-DIMM0
+        dwRAM_Speed: 0
+        szRAM_Manufacturer: ""
+        szRAM_szSerialNumber: ""
+        szRAM_RAMModuleHeading: "ChannelB-DIMM0: "
+        szRAM_RAMModuleLine1: "Not populated "
+        szRAM_RAMModuleLine2: ""
+      - ullRAM_Capacity: 4294967296
+        dwRAM_MemoryType: 26
+        dwRAM_PositionInRow: 0
+        szRAM_MemoryLocation: ChannelB-DIMM1
+        dwRAM_Speed: 2133
+        szRAM_Manufacturer: ""
+        szRAM_szSerialNumber: ""
+        szRAM_RAMModuleHeading: "ChannelB-DIMM1: "
+        szRAM_RAMModuleLine1: "4096MB, 2133MHz, "
+        szRAM_RAMModuleLine2: ""
+  USBHostControllers:
+    - szHostController: Contrôleur d’hôte compatible xHCI USB
+      szDriverKeyName: "{36fc9e60-c465-11cf-8056-444553540000}\\0000"
+      szDevice:
+        - "Corsair CORSAIR K70 RGB MK.2 SE Mechanical Gaming Keyboard (SN: 1403101DAF1C88A459DCC362F5001BC4)"
+    - szHostController: Contrôleur d’hôte compatible xHCI USB
+      szDriverKeyName: "{36fc9e60-c465-11cf-8056-444553540000}\\0001"
+      szDevice:
+        - "Corsair CORSAIR M65 RGB ELITE Gaming Mouse (SN: 1801B00CAF2609055A630FFDF5001BC0)"
+  PhysDisks:
+    - nDiskType: 1
+      nPartitionTableType: 2
+      bNFTSImage: false
+      bVolumeImage: false
+      bDDImage: false
+      PartitionInfo:
+        - wPhyDisk: 0
+          wCylinder: 0
+          wHead: 0
+          wSector: 0
+          ullNumSectors: 614400000
+          wType: 1
+          ullRelativeSector: 0
+          ullNTRelativeSector: 2048
+          dwBytesPerSector: 512
+          dwBytesPerCluster: 4096
+          wMFTRecordSz: 1024
+          szDrive: "E:"
+          chType: 7
+        - wPhyDisk: 0
+          wCylinder: 0
+          wHead: 0
+          wSector: 0
+          ullNumSectors: 309094400
+          wType: 1
+          ullRelativeSector: 0
+          ullNTRelativeSector: 614402048
+          dwBytesPerSector: 512
+          dwBytesPerCluster: 4096
+          wMFTRecordSz: 0
+          szDrive: ""
+          chType: 131
+        - wPhyDisk: 0
+          wCylinder: 0
+          wHead: 0
+          wSector: 0
+          ullNumSectors: 0
+          wType: 0
+          ullRelativeSector: 0
+          ullNTRelativeSector: 0
+          dwBytesPerSector: 0
+          dwBytesPerCluster: 0
+          wMFTRecordSz: 0
+          szDrive: ""
+          chType: 0
+        - wPhyDisk: 0
+          wCylinder: 0
+          wHead: 0
+          wSector: 0
+          ullNumSectors: 36501504
+          wType: 1
+          ullRelativeSector: 0
+          ullNTRelativeSector: 940271616
+          dwBytesPerSector: 512
+          dwBytesPerCluster: 4096
+          wMFTRecordSz: 1024
+          szDrive: ""
+          chType: 7
+    - nDiskType: 1
+      nPartitionTableType: 2
+      bNFTSImage: false
+      bVolumeImage: false
+      bDDImage: false
+      PartitionInfo:
+        - wPhyDisk: 1
+          wCylinder: 0
+          wHead: 0
+          wSector: 0
+          ullNumSectors: 921600
+          wType: 1
+          ullRelativeSector: 0
+          ullNTRelativeSector: 2048
+          dwBytesPerSector: 512
+          dwBytesPerCluster: 4096
+          wMFTRecordSz: 1024
+          szDrive: ""
+          chType: 7
+        - wPhyDisk: 1
+          wCylinder: 0
+          wHead: 0
+          wSector: 0
+          ullNumSectors: 202752
+          wType: 1
+          ullRelativeSector: 0
+          ullNTRelativeSector: 923648
+          dwBytesPerSector: 512
+          dwBytesPerCluster: 1024
+          wMFTRecordSz: 0
+          szDrive: ""
+          chType: 11
+        - wPhyDisk: 0
+          wCylinder: 0
+          wHead: 0
+          wSector: 0
+          ullNumSectors: 0
+          wType: 0
+          ullRelativeSector: 0
+          ullNTRelativeSector: 0
+          dwBytesPerSector: 0
+          dwBytesPerCluster: 0
+          wMFTRecordSz: 0
+          szDrive: ""
+          chType: 0
+        - wPhyDisk: 1
+          wCylinder: 0
+          wHead: 0
+          wSector: 0
+          ullNumSectors: 228302945
+          wType: 1
+          ullRelativeSector: 0
+          ullNTRelativeSector: 1159168
+          dwBytesPerSector: 512
+          dwBytesPerCluster: 4096
+          wMFTRecordSz: 1024
+          szDrive: "C:"
+          chType: 7
+        - wPhyDisk: 1
+          wCylinder: 0
+          wHead: 0
+          wSector: 0
+          ullNumSectors: 1013760
+          wType: 1
+          ullRelativeSector: 0
+          ullNTRelativeSector: 229464064
+          dwBytesPerSector: 512
+          dwBytesPerCluster: 4096
+          wMFTRecordSz: 1024
+          szDrive: ""
+          chType: 7
+        - wPhyDisk: 1
+          wCylinder: 0
+          wHead: 0
+          wSector: 0
+          ullNumSectors: 1011712
+          wType: 1
+          ullRelativeSector: 0
+          ullNTRelativeSector: 230479872
+          dwBytesPerSector: 512
+          dwBytesPerCluster: 4096
+          wMFTRecordSz: 1024
+          szDrive: ""
+          chType: 7
+        - wPhyDisk: 1
+          wCylinder: 0
+          wHead: 0
+          wSector: 0
+          ullNumSectors: 1005568
+          wType: 1
+          ullRelativeSector: 0
+          ullNTRelativeSector: 231493632
+          dwBytesPerSector: 512
+          dwBytesPerCluster: 4096
+          wMFTRecordSz: 1024
+          szDrive: ""
+          chType: 7
+        - wPhyDisk: 1
+          wCylinder: 0
+          wHead: 0
+          wSector: 0
+          ullNumSectors: 968704
+          wType: 1
+          ullRelativeSector: 0
+          ullNTRelativeSector: 232501248
+          dwBytesPerSector: 512
+          dwBytesPerCluster: 4096
+          wMFTRecordSz: 1024
+          szDrive: ""
+          chType: 7
+        - wPhyDisk: 1
+          wCylinder: 0
+          wHead: 0
+          wSector: 0
+          ullNumSectors: 966656
+          wType: 1
+          ullRelativeSector: 0
+          ullNTRelativeSector: 233472000
+          dwBytesPerSector: 512
+          dwBytesPerCluster: 4096
+          wMFTRecordSz: 1024
+          szDrive: ""
+          chType: 7
+    - nDiskType: 1
+      nPartitionTableType: 2
+      bNFTSImage: false
+      bVolumeImage: false
+      bDDImage: false
+      PartitionInfo:
+        - wPhyDisk: 0
+          wCylinder: 0
+          wHead: 0
+          wSector: 0
+          ullNumSectors: 0
+          wType: 0
+          ullRelativeSector: 0
+          ullNTRelativeSector: 0
+          dwBytesPerSector: 0
+          dwBytesPerCluster: 0
+          wMFTRecordSz: 0
+          szDrive: ""
+          chType: 0
+        - wPhyDisk: 2
+          wCylinder: 0
+          wHead: 0
+          wSector: 0
+          ullNumSectors: 1736333312
+          wType: 1
+          ullRelativeSector: 0
+          ullNTRelativeSector: 264192
+          dwBytesPerSector: 512
+          dwBytesPerCluster: 4096
+          wMFTRecordSz: 1024
+          szDrive: "D:"
+          chType: 7
+        - wPhyDisk: 2
+          wCylinder: 0
+          wHead: 0
+          wSector: 0
+          ullNumSectors: 1021952
+          wType: 1
+          ullRelativeSector: 0
+          ullNTRelativeSector: 1736597504
+          dwBytesPerSector: 512
+          dwBytesPerCluster: 4096
+          wMFTRecordSz: 1024
+          szDrive: ""
+          chType: 7
+        - wPhyDisk: 2
+          wCylinder: 0
+          wHead: 0
+          wSector: 0
+          ullNumSectors: 1693696
+          wType: 1
+          ullRelativeSector: 0
+          ullNTRelativeSector: 1737619456
+          dwBytesPerSector: 512
+          dwBytesPerCluster: 4096
+          wMFTRecordSz: 0
+          szDrive: ""
+          chType: 11
+        - wPhyDisk: 2
+          wCylinder: 0
+          wHead: 0
+          wSector: 0
+          ullNumSectors: 127942880
+          wType: 1
+          ullRelativeSector: 0
+          ullNTRelativeSector: 1739313152
+          dwBytesPerSector: 512
+          dwBytesPerCluster: 4096
+          wMFTRecordSz: 0
+          szDrive: ""
+          chType: 175
+        - wPhyDisk: 2
+          wCylinder: 0
+          wHead: 0
+          wSector: 0
+          ullNumSectors: 1269536
+          wType: 1
+          ullRelativeSector: 0
+          ullNTRelativeSector: 1867256032
+          dwBytesPerSector: 512
+          dwBytesPerCluster: 4096
+          wMFTRecordSz: 0
+          szDrive: ""
+          chType: 175
+        - wPhyDisk: 2
+          wCylinder: 0
+          wHead: 0
+          wSector: 0
+          ullNumSectors: 68360192
+          wType: 1
+          ullRelativeSector: 0
+          ullNTRelativeSector: 1868525568
+          dwBytesPerSector: 512
+          dwBytesPerCluster: 4096
+          wMFTRecordSz: 0
+          szDrive: ""
+          chType: 131
+  SMARTDeviceInfo:
+    0:
+      b48BitAddressSupported: 1
+      bAutoAcousticEnabled: 0
+      bChannelId: 0
+      bTargetId: 0
+      bLun: 0
+      bInterfaceType: 11
+      qwNumCylinders: 60801
+      wBytesPerSector: 512
+      wSectorsPerTrack: 63
+      wTracksPerCylinder: 255
+      wLogicalSectorSize: 512
+      wPhysicalSectorSize: 512
+      dwBufferSize: 0
+      wECCSize: 0
+      wMediaRotationRate: 1
+      wATAVersionSupported: 2556
+      wTransportTypeSupported: 4223
+      qwTotalAddressableSectors: 976773168
+      bSerialNumber: S3Z2NB0KA88852L
+      bFirmwareRev: RVT01B6Q
+      bModelNumber: Samsung SSD 860 EVO 500GB
+      bWorldWideID: 5002538E40851095
+      bSMARTSupported: 1
+      bSMARTEnabled: 1
+      bSMARTSelfTestSupported: 1
+      bSMARTErrorLoggingSupported: 1
+      bLBASupported: 1
+      bIORDYSupported: 1
+      bCFastSupported: 0
+      bDMASupported: 1
+      bMultiwordDMASupported: 7
+      bMultiwordDMASelected: 0
+      bUltraDMASupported: 127
+      bUltraDMASelected: 32
+      bPIOSupported: 3
+      bSATACompliance: 1
+      wSATACapabilities: 34062
+      wSATAFeaturesSupported: 364
+      wSATAFeaturesEnabled: 96
+      bTrustedComputingSupported: 1
+      bHPASupported: 1
+      bReadLookAheadSupported: 1
+      bReadLookAheadEnabled: 1
+      bWriteCacheSupported: 1
+      bWriteCacheEnabled: 1
+      bPowerManagementSupported: 1
+      bSecurityModeSupported: 1
+      bSecurityModeEnabled: 0
+      bDeviceConfigOverlaySupported: 1
+      b48BitAddressSupported: 1
+      bAutoAcousticSupported: 0
+      bAutoAcousticEnabled: 0
+      bRecommendedAAMLevel: 0
+      bCurrentAAMLevel: 0
+      bPowerUpStandbySupported: 0
+      bPowerUpStandbyEnabled: 0
+      bAutoPowerManagementSupported: 0
+      bAutoPowerManagementEnabled: 0
+      bCurrentAPMLevel: 0
+      bCFASupported: 0
+      bGPLoggingSupported: 1
+      bStreamingSupported: 0
+      bMediaCardPassthroughSupported: 0
+      bMediaCardPassthroughEnabled: 0
+      bExtPowerConditionsSupported: 0
+      bExtPowerConditionsEnabled: 0
+      bExtStatusReportingSupported: 0
+      bExtStatusReportingEnabled: 0
+      bFreefallControlSupported: 0
+      bFreefallControlEnabled: 0
+      bWriteReadVerifySupported: 1
+      bWriteReadVerifyEnabled: 0
+      bTrimSupported: 1
+      wSCTCommandTransportSupported: 1
+      bNVCacheEnabled: 0
+      bNVCachePMSupported: 0
+      bNVCachePMEnabled: 0
+    1:
+      b48BitAddressSupported: 1
+      bAutoAcousticEnabled: 0
+      bChannelId: 3
+      bTargetId: 0
+      bLun: 0
+      bInterfaceType: 11
+      qwNumCylinders: 14593
+      wBytesPerSector: 512
+      wSectorsPerTrack: 63
+      wTracksPerCylinder: 255
+      wLogicalSectorSize: 512
+      wPhysicalSectorSize: 512
+      dwBufferSize: 0
+      wECCSize: 4
+      wMediaRotationRate: 1
+      wATAVersionSupported: 508
+      wTransportTypeSupported: 4159
+      qwTotalAddressableSectors: 234441648
+      bSerialNumber: 50026B766701D4A9
+      bFirmwareRev: 60AABBF0
+      bModelNumber: KINGSTON SV300S37A120G
+      bWorldWideID: 50026B766701D4A9
+      bSMARTSupported: 1
+      bSMARTEnabled: 1
+      bSMARTSelfTestSupported: 1
+      bSMARTErrorLoggingSupported: 1
+      bLBASupported: 1
+      bIORDYSupported: 1
+      bCFastSupported: 0
+      bDMASupported: 1
+      bMultiwordDMASupported: 7
+      bMultiwordDMASelected: 0
+      bUltraDMASupported: 127
+      bUltraDMASelected: 32
+      bPIOSupported: 3
+      bSATACompliance: 1
+      wSATACapabilities: 38158
+      wSATAFeaturesSupported: 76
+      wSATAFeaturesEnabled: 64
+      bTrustedComputingSupported: 0
+      bHPASupported: 1
+      bReadLookAheadSupported: 1
+      bReadLookAheadEnabled: 0
+      bWriteCacheSupported: 1
+      bWriteCacheEnabled: 1
+      bPowerManagementSupported: 1
+      bSecurityModeSupported: 1
+      bSecurityModeEnabled: 0
+      bDeviceConfigOverlaySupported: 0
+      b48BitAddressSupported: 1
+      bAutoAcousticSupported: 0
+      bAutoAcousticEnabled: 0
+      bRecommendedAAMLevel: 0
+      bCurrentAAMLevel: 0
+      bPowerUpStandbySupported: 1
+      bPowerUpStandbyEnabled: 0
+      bAutoPowerManagementSupported: 1
+      bAutoPowerManagementEnabled: 1
+      bCurrentAPMLevel: 254
+      bCFASupported: 0
+      bGPLoggingSupported: 1
+      bStreamingSupported: 0
+      bMediaCardPassthroughSupported: 0
+      bMediaCardPassthroughEnabled: 0
+      bExtPowerConditionsSupported: 0
+      bExtPowerConditionsEnabled: 0
+      bExtStatusReportingSupported: 1
+      bExtStatusReportingEnabled: 0
+      bFreefallControlSupported: 0
+      bFreefallControlEnabled: 0
+      bWriteReadVerifySupported: 1
+      bWriteReadVerifyEnabled: 0
+      bTrimSupported: 1
+      wSCTCommandTransportSupported: 1
+      bNVCacheEnabled: 0
+      bNVCachePMSupported: 0
+      bNVCachePMEnabled: 0
+    2:
+      b48BitAddressSupported: 1
+      bAutoAcousticEnabled: 0
+      bChannelId: 5
+      bTargetId: 0
+      bLun: 0
+      bInterfaceType: 11
+      qwNumCylinders: 121601
+      wBytesPerSector: 512
+      wSectorsPerTrack: 63
+      wTracksPerCylinder: 255
+      wLogicalSectorSize: 512
+      wPhysicalSectorSize: 4096
+      dwBufferSize: 0
+      wECCSize: 0
+      wMediaRotationRate: 7200
+      wATAVersionSupported: 496
+      wTransportTypeSupported: 4128
+      qwTotalAddressableSectors: 1953525168
+      bSerialNumber: Z9A776Z8
+      bFirmwareRev: CC43
+      bModelNumber: ST1000DM003-1SB102
+      bWorldWideID: 5000C50092DC24A5
+      bSMARTSupported: 1
+      bSMARTEnabled: 1
+      bSMARTSelfTestSupported: 1
+      bSMARTErrorLoggingSupported: 1
+      bLBASupported: 1
+      bIORDYSupported: 1
+      bCFastSupported: 0
+      bDMASupported: 1
+      bMultiwordDMASupported: 7
+      bMultiwordDMASelected: 0
+      bUltraDMASupported: 127
+      bUltraDMASelected: 32
+      bPIOSupported: 3
+      bSATACompliance: 1
+      wSATACapabilities: 34062
+      wSATAFeaturesSupported: 204
+      wSATAFeaturesEnabled: 64
+      bTrustedComputingSupported: 0
+      bHPASupported: 1
+      bReadLookAheadSupported: 1
+      bReadLookAheadEnabled: 1
+      bWriteCacheSupported: 1
+      bWriteCacheEnabled: 1
+      bPowerManagementSupported: 1
+      bSecurityModeSupported: 1
+      bSecurityModeEnabled: 0
+      bDeviceConfigOverlaySupported: 1
+      b48BitAddressSupported: 1
+      bAutoAcousticSupported: 0
+      bAutoAcousticEnabled: 0
+      bRecommendedAAMLevel: 208
+      bCurrentAAMLevel: 208
+      bPowerUpStandbySupported: 1
+      bPowerUpStandbyEnabled: 0
+      bAutoPowerManagementSupported: 1
+      bAutoPowerManagementEnabled: 1
+      bCurrentAPMLevel: 128
+      bCFASupported: 0
+      bGPLoggingSupported: 1
+      bStreamingSupported: 0
+      bMediaCardPassthroughSupported: 0
+      bMediaCardPassthroughEnabled: 0
+      bExtPowerConditionsSupported: 0
+      bExtPowerConditionsEnabled: 0
+      bExtStatusReportingSupported: 0
+      bExtStatusReportingEnabled: 0
+      bFreefallControlSupported: 0
+      bFreefallControlEnabled: 0
+      bWriteReadVerifySupported: 1
+      bWriteReadVerifyEnabled: 0
+      bTrimSupported: 0
+      wSCTCommandTransportSupported: 1
+      bNVCacheEnabled: 0
+      bNVCachePMSupported: 0
+      bNVCachePMEnabled: 0
+  TSensorData:
+    TemperatureInfo:
+      - iKey:
+          iType: 1
+          iID: 0
+          iIDSubvalue: -1
+          iCPUMask: 0
+        iPMKeySelected: 0
+        szTempCaption: CPU 0 average
+        Temp: 47.25
+      - iKey:
+          iType: 4
+          iID: 0
+          iIDSubvalue: 0
+          iCPUMask: 1
+        iPMKeySelected: 0
+        szTempCaption: CPU 0 core 0
+        Temp: 49
+      - iKey:
+          iType: 4
+          iID: 0
+          iIDSubvalue: 1
+          iCPUMask: 2
+        iPMKeySelected: 0
+        szTempCaption: CPU 0 core 1
+        Temp: 51
+      - iKey:
+          iType: 4
+          iID: 0
+          iIDSubvalue: 2
+          iCPUMask: 4
+        iPMKeySelected: 0
+        szTempCaption: CPU 0 core 2
+        Temp: 45
+      - iKey:
+          iType: 4
+          iID: 0
+          iIDSubvalue: 3
+          iCPUMask: 8
+        iPMKeySelected: 0
+        szTempCaption: CPU 0 core 3
+        Temp: 44
+      - iKey:
+          iType: 8
+          iID: 0
+          iIDSubvalue: 3
+          iCPUMask: 0
+        iPMKeySelected: 0
+        szTempCaption: HDD 0 (Samsung SSD 860 EVO 500GB)
+        Temp: 25
+      - iKey:
+          iType: 8
+          iID: 1
+          iIDSubvalue: 3
+          iCPUMask: 0
+        iPMKeySelected: 0
+        szTempCaption: HDD 1 (KINGSTON SV300S37A120G)
+        Temp: 30
+      - iKey:
+          iType: 8
+          iID: 2
+          iIDSubvalue: 3
+          iCPUMask: 0
+        iPMKeySelected: 0
+        szTempCaption: HDD 2 (ST1000DM003-1SB102)
+        Temp: 29
+      - iKey:
+          iType: 16
+          iID: 0
+          iIDSubvalue: -1
+          iCPUMask: 0
+        iPMKeySelected: 0
+        szTempCaption: GPU 0 GeForce GTX 1060 3GB
+        Temp: 43
+  ProcessList:
+    - Registry
+    - smss.exe
+    - csrss.exe
+    - wininit.exe
+    - csrss.exe
+    - services.exe
+    - lsass.exe
+    - winlogon.exe
+    - svchost.exe
+    - svchost.exe
+    - fontdrvhost.exe
+    - fontdrvhost.exe
+    - svchost.exe
+    - svchost.exe
+    - svchost.exe
+    - svchost.exe
+    - svchost.exe
+    - svchost.exe
+    - svchost.exe
+    - svchost.exe
+    - svchost.exe
+    - svchost.exe
+    - svchost.exe
+    - svchost.exe
+    - NVDisplay.Container.exe
+    - svchost.exe
+    - PresentationFontCache.exe
+    - svchost.exe
+    - svchost.exe
+    - svchost.exe
+    - svchost.exe
+    - svchost.exe
+    - svchost.exe
+    - svchost.exe
+    - svchost.exe
+    - Memory Compression
+    - svchost.exe
+    - svchost.exe
+    - NVDisplay.Container.exe
+    - svchost.exe
+    - svchost.exe
+    - svchost.exe
+    - svchost.exe
+    - svchost.exe
+    - svchost.exe
+    - svchost.exe
+    - svchost.exe
+    - svchost.exe
+    - svchost.exe
+    - svchost.exe
+    - spoolsv.exe
+    - svchost.exe
+    - svchost.exe
+    - svchost.exe
+    - svchost.exe
+    - svchost.exe
+    - svchost.exe
+    - GamingApp_Service.exe
+    - IntelCpHDCPSvc.exe
+    - AdobeUpdateService.exe
+    - GamingHotkey_Service.exe
+    - AGSService.exe
+    - AGMService.exe
+    - OfficeClickToRun.exe
+    - lghub_updater.exe
+    - LogiRegistryService.exe
+    - svchost.exe
+    - Corsair.Service.exe
+    - svchost.exe
+    - svchost.exe
+    - svchost.exe
+    - SchedulerService.exe
+    - AgentService.exe
+    - nvcontainer.exe
+    - MSIRegisterService.exe
+    - MSIControlService.exe
+    - SamsungRapidSvc.exe
+    - MSI_ActiveX_Service.exe
+    - MSIDDRService.exe
+    - svchost.exe
+    - MSI_LiveUpdate_Service.exe
+    - MsMpEng.exe
+    - Surfshark.Service.exe
+    - svchost.exe
+    - dasHost.exe
+    - svchost.exe
+    - svchost.exe
+    - rundll32.exe
+    - svchost.exe
+    - svchost.exe
+    - svchost.exe
+    - dasHost.exe
+    - unsecapp.exe
+    - WmiPrvSE.exe
+    - WmiPrvSE.exe
+    - Corsair.Service.CpuIdRemote64.exe
+    - conhost.exe
+    - svchost.exe
+    - svchost.exe
+    - VideoCardMonitorII.exe
+    - Corsair.Service.DisplayAdapter.exe
+    - EyeRest.exe
+    - TriggerModeMonitor.exe
+    - conhost.exe
+    - NahimicMonitor.exe
+    - WmiPrvSE.exe
+    - NisSrv.exe
+    - dllhost.exe
+    - nvcontainer.exe
+    - sihost.exe
+    - nvcontainer.exe
+    - svchost.exe
+    - svchost.exe
+    - GamingHotkey.exe
+    - muachost.exe
+    - svchost.exe
+    - taskhostw.exe
+    - MSIToastServer.exe
+    - MSI_LED.exe
+    - svchost.exe
+    - ctfmon.exe
+    - explorer.exe
+    - svchost.exe
+    - svchost.exe
+    - nvsphelper64.exe
+    - StartMenuExperienceHost.exe
+    - RuntimeBroker.exe
+    - NVIDIA Web Helper.exe
+    - conhost.exe
+    - SearchApp.exe
+    - SearchIndexer.exe
+    - RuntimeBroker.exe
+    - svchost.exe
+    - svchost.exe
+    - SettingSyncHost.exe
+    - dllhost.exe
+    - SkypeBackgroundHost.exe
+    - svchost.exe
+    - svchost.exe
+    - RuntimeBroker.exe
+    - TextInputHost.exe
+    - svchost.exe
+    - svchost.exe
+    - svchost.exe
+    - svchost.exe
+    - wermgr.exe
+    - RuntimeBroker.exe
+    - smartscreen.exe
+    - svchost.exe
+    - SkypeApp.exe
+    - YourPhone.exe
+    - SecurityHealthSystray.exe
+    - SecurityHealthService.exe
+    - RtkNGUI64.exe
+    - OneDrive.exe
+    - svchost.exe
+    - RuntimeBroker.exe
+    - dllhost.exe
+    - audiodg.exe
+    - SamsungMagician.exe
+    - svchost.exe
+    - MSIAfterburner.exe
+    - svchost.exe
+    - iCUE.exe
+    - SMMonitor.exe
+    - RTSS.exe
+    - EncoderServer.exe
+    - RTSSHooksLoader64.exe
+    - svchost.exe
+    - YourPhoneServer.exe
+    - Blitz.exe
+    - svchost.exe
+    - Blitz.exe
+    - Blitz.exe
+    - SgrmBroker.exe
+    - svchost.exe
+    - svchost.exe
+    - Microsoft.Photos.exe
+    - RuntimeBroker.exe
+    - MicrosoftEdge.exe
+    - ApplicationFrameHost.exe
+    - browser_broker.exe
+    - RuntimeBroker.exe
+    - MicrosoftEdgeSH.exe
+    - MicrosoftEdgeCP.exe
+    - AdobeNotificationClient.exe
+    - RuntimeBroker.exe
+    - svchost.exe
+    - RuntimeBroker.exe
+    - WinStore.App.exe
+    - svchost.exe
+    - svchost.exe
+    - SystemSettings.exe
+    - UserOOBEBroker.exe
+    - svchost.exe
+    - taskhostw.exe
+    - SearchProtocolHost.exe
+    - dwm.exe
+    - svchost.exe
+    - MsMpEngCP.exe
+    - NVIDIA Share.exe
+    - NVIDIA Share.exe
+    - NVIDIA Share.exe
+    - SearchFilterHost.exe
+    - PerformanceTest64.exe
+    - dllhost.exe
+Checksum: 7D9235D91F3E55D3662B635A25AFC5453310F422
