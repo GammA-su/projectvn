@@ -20,10 +20,12 @@ var mainfont;
 let fs = false;
 var progress = 0;
 var video;
+var ecoFps = 0;
 
 
 
 function preload(){
+    console.log("Loading all the assets, Please Wait...")
     //soundFormats('mp3', 'ogg');
     //background_song = loadSound("song/01_startup.ogg");
     //ost_1 = loadSound("song/")
@@ -50,20 +52,25 @@ function preload(){
 
 
 function setup(){
+    console.log("All assets initialized.")
+    console.log("Setting up the canvas...")
     let canvas = createCanvas(1920, 1080);
     canvas.position(0,0)
     frameRate(30);
     background(255);
     textFont(mainfont);
     op.hide();
+    console.log("Canvas initialized.")
     /* textFont("Roboto");*/
 }
 
 function draw(){
     
     function menu(){
+        
         if (state == 0){
-         console.log('using memory')
+         console.log("Loading the menu...")
+         console.log('Currently using memory.')
         // background0gif.position(0, 0);
          /*if (background_song.isPlaying() == true){
             console.log('already playing')
@@ -83,16 +90,16 @@ function draw(){
          textFont(mainfont);
          textSize(80);
          text("START",687,110);
-         image(playbtn,647,71.19)
+         image(playbtn,647,71.19);
          if (hover=="load"){fill("#4281A4");/*hover_sfx.play()*/}else{fill("#DB495D");}
          text("LOAD",1062.5,110);
-         image(loadbtn,1019,71.19)
+         image(loadbtn,1019,71.19);
          if (hover=="setto"){fill("#4281A4");/*hover_sfx.play()*/}else{fill("#DB495D");}
          text("SETTINGS",1397,110);
-         image(settobtn,1353,71.19)
-         stroke("#DB495D")
-         strokeWeight(27)
-         rect(648.5,8,1084,2)
+         image(settobtn,1353,71.19);
+         stroke("#DB495D");
+         strokeWeight(27);
+         rect(648.5,8,1084,2);
          if (fs == false){
             noStroke()
             fill(66, 129, 164, 210)
@@ -112,7 +119,9 @@ function draw(){
             textSize(30)
             text('For Optimized Experience', 770, 650)
          }
-         active = "menu"
+         console.log("Menu initialized.");
+         console.log("Currently in the Menu.");
+         active = "waitingDetectionMenu";
          
          
          
@@ -169,7 +178,6 @@ function draw(){
                                 ,"Yasuko"]
                 var background = [background_1,background_1,background_2,background_2,background_2,background_3,background_3,background_3,background_3,background_3,background_3,background_3,background_3,background_3,background_4,background_4,background_4,background_4,background_4] 
                 //var background = [background_1,background_2,background_3,background_4,background_5,background_6,background_7,background_8,background_9,background10,background11,background12,background13,background14,background15,background16,background17,background17,background18]
-                console.log(intro[num])
                 current_character = character[cha]
                 current_text = intro[num];
                 current_background = background[num]
@@ -182,10 +190,12 @@ function draw(){
                 if (current_num == 2 && anim == false || current_num == 5 && anim == false || current_num == 15 && anim == false){
                 active = "waiting+anim";
                 gen(current_num,current_num);
-                print("Anim requested")
+                console.log("Animation requested...")
+                console.log("Background in transition...")
 
             }
             else {
+                
                 if (current_num == 3 || current_num == 6  || current_num == 14){
                     anim = false;
                 }
@@ -239,7 +249,7 @@ function draw(){
             }
         }
         else {
-            console.log("not using memory, sleep mode")
+            console.log("not using memory, intro sleep mode")
         }
         
         
@@ -248,7 +258,7 @@ function draw(){
 
     function animtext(){
         if (text2.length >= current_text.length){
-            console.log('DONE')
+            console.log('Text Animation finished')
             active = "waiting"
             animtext = true;
             addcount = 0;
@@ -287,6 +297,7 @@ function draw(){
                     xtint = 0;
                     xtint2 = 0;
                     active = "animtext"
+                    console.log("Text animation requested...")
                     /*insert code of _intro_ here if not working*/
 
                    // image(background_text,0,772)
@@ -316,7 +327,7 @@ function draw(){
             tint(255,xtint*16);
             background(current_background);
             xtint = xtint + 1;
-            console.log(xtint);
+            //console.log(xtint);
             active = "waiting+anim";
         }
     }
@@ -357,66 +368,144 @@ function draw(){
     function detect(){
         if (active == "menu"){
             if (mouseX > 687 && mouseX < 920 && mouseY > 60 && mouseY < 120){
-                hover = "start";
-                menu();
-                state = 1;
-                console.log("start area")
+                if (state < 1){
+                    console.log("----------------------------------NEW EVENT----------------------------")
+                    console.log("Hovering the Start Button")
+                    hover = "start";
+                    console.log("Refreshing the Menu...")
+                    menu();
+                    state = state + 1 ;
+                   // ecoFps = ecoFps + 1
+                }
                 
             }
             else if (hover == "start"){
-                    console.log("outside area")
+                    console.log("----------------------------------NEW EVENT----------------------------")
+                    console.log("Stopped hovering the Start button")
                     state = 0;
                     hover = "none";
+                    console.log("Refreshing the Menu...")
                     menu();
-                }
+            }
+            
+                
             if (mouseX > 1065 && mouseX < 1260 && mouseY > 60 && mouseY < 120){
-                hover = "load";
-                menu();
-                state = 1;
-                console.log ("log area");
+                if (state < 1){
+                    console.log("----------------------------------NEW EVENT----------------------------")
+                    console.log("Hovering the Load Button")
+                    hover = "load";
+                    console.log("Refreshing the Menu...")
+                    menu();
+                    state = state + 1;
+                }
+                
             }
             else if (hover == "load"){
-                    console.log("outside log area")
+                    console.log("----------------------------------NEW EVENT----------------------------")
+                    console.log("Stopped hovering the Load button")
                     state = 0;
                     hover = "none";
+                    console.log("Refreshing the Menu...")
                     menu();
                 }
             if (mouseX > 1400 && mouseX < 1745 && mouseY > 60 && mouseY < 120){
-                hover = "setto";
-                menu();
-                state = 1;
-                console.log ("log area");
+                if (state < 1){
+                    console.log("----------------------------------NEW EVENT----------------------------")
+                    console.log("Hovering the Settings Button")
+                    hover = "setto";
+                    console.log("Refreshing the Menu...")
+                    menu();
+                    state = 1;
+                }
+               
             }
             else if (hover == "setto"){
-                    console.log("outside setto area")
+                    console.log("----------------------------------NEW EVENT----------------------------")
+                    console.log("Stopped hovering the Settings button")
                     state = 0;
                     hover = "none";
+                    console.log("Refreshing the Menu...")
                     menu();
                 }
-            else {console.log("not using memory, sleep mode")}
     
             }
         if (active == "intro" || active == "waiting" || active =="sleep" || active=="animtext"){
             if (mouseX > 524 && mouseX < 650 && mouseY > 1040 && mouseY < 1065){
-                //console.log("hhhhh")
-                hover = "mainmenu";
-                animtext = true;
-                _intro_();
-                state = 1;
-                if (active=="animtext"){
-                    active = "sleep";
-                }
-                
-                
-    
+                console.log("WHAT")
+                if (ecoFps<1){
+                    hover = "mainmenu";
+                    if (active =="waiting"){
+                        animtext = true;
+                    }
+                    _intro_();
+                    ecoFps = ecoFps + 2;
+                }    
             }
-            else if (hover == "mainmenu"){
+            else if (ecoFps==2){
                 hover = "none";
-                state = 0;
-                active = "waiting";
-                animtext = true;
+                if (active =="waiting"){
+                    animtext = true;
+                }
                 _intro_();
-            }  
+                ecoFps = 0
+            }
+            if (mouseX > 676 && mouseX < 770 && mouseY > 1040 && mouseY < 1065){
+                if (ecoFps<1){
+                    hover = "settings";
+                    if (active =="waiting"){
+                        animtext = true;
+                    }
+                    _intro_();
+                    ecoFps = ecoFps + 1;
+                }    
+            }
+            else if (ecoFps==1){
+                    hover = "none";
+                    if (active =="waiting"){
+                        animtext = true;
+                    }
+                    _intro_();
+                    ecoFps = 0
+                }
+
+            if (mouseX > 805 && mouseX < 851 && mouseY > 1040 && mouseY < 1065){
+                if (ecoFps<1){
+                    hover = "save";
+                    if (active =="waiting"){
+                        animtext = true;
+                    }
+                    _intro_();
+                    ecoFps = ecoFps + 3;
+                }    
+            }
+            else if (ecoFps==3){
+                    hover = "none";
+                    if (active =="waiting"){
+                        animtext = true;
+                    }
+                    _intro_();
+                    ecoFps = 0
+                }
+
+            if (mouseX > 886 && mouseX < 942 && mouseY > 1040 && mouseY < 1065){
+                if (ecoFps<1){
+                    hover = "load";
+                    if (active =="waiting"){
+                        animtext = true;
+                    }
+                    _intro_();
+                    ecoFps = ecoFps + 4;
+                }    
+            }
+            else if (ecoFps==4){
+                    hover = "none";
+                    if (active =="waiting"){
+                        animtext = true;
+                    }
+                    _intro_();
+                    ecoFps = 0
+                }
+            
             if ( mouseY > 0 && mouseY < 1033.5){
                 hover = "content";
             }
@@ -447,11 +536,19 @@ function draw(){
             opstart()
         }
         else {
+            console.log("Current scene : "+current_num);
+            console.log("Loading this scene's assets...")
             _intro_();
             if (active != "waiting+anim"){
             active = "animtext"
         }
         }
+    }
+
+
+    if (active =="waitingDetectionMenu"){
+        console.log("not using memory, sleep mode")
+        active = "menu";
     }
     if (active =="waiting+op"){
         clear();
@@ -460,6 +557,8 @@ function draw(){
     if(active == "sleep") {
         sleep();
     }
+
+    
     if(active  == "waiting+anim"){
         animbackgroun();
     }
@@ -472,7 +571,7 @@ function draw(){
         noTint();
         anim = true;
         animtext = true;
-     addcount = 0;
+        addcount = 0;
         text2="";
         _intro_();
     }
@@ -492,6 +591,8 @@ function draw(){
 
 function mouseClicked(){
     if (hover == "start"){
+        console.log("----------------------------------NEW EVENT----------------------------")
+        console.log("Start button pressed. ")
         hover = "none";
         active = "startw8";
         state = 0;
@@ -499,17 +600,19 @@ function mouseClicked(){
     }
    if(hover == "content"){
         if (active == "waiting"){
+            console.log("----------------------------------NEW EVENT----------------------------")
             current_num = current_num + 1;
-            console.log(current_num);
             active = "startw8";
         } 
         if (active == "animtext" && active != "waiting+anim"){
+            console.log("----------------------------------NEW EVENT----------------------------")
             active = "endforcetxtanim";
         }
        
    }
     
     if (hover == "mainmenu"){
+        console.log("----------------------------------NEW EVENT----------------------------")
         clear();
         state = 0;
         hover = "none";
@@ -518,11 +621,13 @@ function mouseClicked(){
     
 }
 
+
+
 function keyTyped(){
     if (key === "d"){
+        console.log("----------------------------------NEW EVENT----------------------------")
         if (active === "waiting"){
             current_num = current_num + 1;
-            console.log(current_num);
             active = "startw8";
             }
         if (active == "waiting+anim"){
@@ -542,9 +647,9 @@ function keyTyped(){
             
     }
     if (key === "a"){
+        console.log("----------------------------------NEW EVENT----------------------------")
         if (active ==="waiting"){
             if (current_num != 0){ 
-                console.log(current_num);
                 current_num = current_num - 1;
                 if (current_num == 1 && anim == true || current_num == 4 ){
                     current_background = background[current_num-1];
@@ -572,10 +677,13 @@ function keyTyped(){
         }
     }
     if (key == "f"){
+        console.log("----------------------------------NEW EVENT----------------------------")
+        console.log("Fullscreen key pressed. ")
         fs = fullscreen();
         fullscreen(!fs);
         fs = true;
         active = "nothing"
+        console.log("Reloading Menu...")
     }
-    
+   
 }
