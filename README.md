@@ -9,7 +9,7 @@ SETUP :
 You need to run a local server in order to run the vn. 
 One easy way to do it is to install : https://github.com/greggman/servez
 
-Then, git clone/download and extract, select the folder in servez and click run.
+Then, git clone or download and extract the git, select the folder in servez and click run.
 
 
 
